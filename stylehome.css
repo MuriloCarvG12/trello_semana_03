@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#pagebody
+{
+    background-color: rgb(238, 250, 255);
+}
+a { color: inherit; } 
+.container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-background
+{
+    background-color: rgb(255, 185, 54);
+    color: rgb(255, 123, 0);
+    width: 100%;
+    padding: 25px; 
+    text-align: center;
+}
+#links
+{
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: orange;
+    padding: 10px;
+}
+
+.body
+{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+#table
+{
+    width: 100%;
+}
+#table-head
+{
+    background-color: rgb(255, 185, 54);
+    height: 30px;   
+    
+}
+#table-body
+{
+    height: 30px;
+    text-align: center;
+}
+.time
+{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    padding-left: 100px;
+}
+#image
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    
+}
+.timetexto
+{
+    display: flex;
+    flex-direction: row;
+    gap: 450px;
+    padding-left: 170px;
+}
